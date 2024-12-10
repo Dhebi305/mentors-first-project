@@ -11,11 +11,6 @@ header {
   padding-top: 0px;
   text-decoration: none;
 }
-h2 {
-  color: white;
-  padding-left: 150px;
-}
-
 .c {
   background-color: rgb(47, 53, 116);
   height: 320px;
@@ -32,6 +27,7 @@ nav {
   color: white;
 }
 a {
+  color: white;
   text-decoration: none;
 }
 
@@ -39,7 +35,7 @@ a {
   height: 50px;
   width: 600px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-left: 300px;
 }
 
@@ -47,16 +43,6 @@ a {
   padding-left: 100px;
 }
 
-h4 {
-  padding-left: 220px;
-  color: lightskyblue;
-}
-p {
-  color: white;
-}
-h3 {
-  color: lightskyblue;
-}
 button {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -66,53 +52,49 @@ button {
   background-color: rgb(47, 53, 116);
   color: white;
 }
-#hi {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 10px;
-  padding-right: 70px;
-}
-.unique {
-  display: flex;
-  gap: 100px;
-  padding-left: 180px;
-  padding-top: 30px;
-}
-#hello {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 30px;
-  padding-right: 70px;
-  padding-left: 40px;
-}
-.nature {
-  font-size: smaller;
-  display: flex;
-  gap: 5px;
-  justify-content: space-evenly;
-  padding-right: 50px;
-}
-#u {
-  padding-left: 170px;
-  justify-content: center;
-  padding-right: 10px;
-}
-#w {
-  padding-right: 50px;
-  justify-content: center;
-  padding-left: 80px;
-}
-#v {
-  padding-right: 100px;
-}
-#beach {
-  padding-left: 100px;
-}
+
 a:hover {
   color: black;
   background-color: white;
   text-decoration: none;
   cursor: pointer;
-  width: 80px;
-  height: 20px;
+  width: 80%;
+  height: 30%;
+}
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  justify-content: center;
+}
+p {
+  font-size: smaller;
+  padding-bottom: 300px;
+}
+#v {
+  padding-left: 20px;
+}
+#t {
+  padding-right: 20px;
+}
+h5 {
+  padding-bottom: 0px;
+}
+h3 {
+  padding-bottom: 0px;
+  padding-top: 15px;
+  color: lightskyblue;
+}
+h2 {
+  padding-left: 150px;
+  color: white;
+}
+#hello {
+  padding-left: 220px;
+  padding-bottom: 0px;
+  color: lightskyblue;
+}
+h4 {
+  color: white;
 }
